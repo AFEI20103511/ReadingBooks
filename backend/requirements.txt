@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pdfplumber
+langchain
+# ollama (local LLM runner, install separately if needed)
+# openai (for OpenAI API support)
+# google-generativeai (for Gemini API support)
+# deepseek (for DeepSeek API support) 
