@@ -41,4 +41,125 @@ h1 {
   margin-top: 16px;
   font-size: 1rem;
   color: #007aff;
+}
+
+/* Results Display Styles */
+.results-container {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.results-section {
+  margin-bottom: 32px;
+}
+
+.results-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #1f2937;
+}
+
+.section-icon {
+  color: #007aff;
+  font-size: 1.1rem;
+}
+
+.entities-list, .relationships-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.entity-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s;
+}
+
+.entity-item:hover {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+}
+
+.entity-name {
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.entity-type {
+  font-size: 0.85rem;
+  color: #6b7280;
+  background: #e5e7eb;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.relationship-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s;
+}
+
+.relationship-item:hover {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+}
+
+.relationship-source, .relationship-target {
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.relationship-arrow {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.relationship-type {
+  font-size: 0.85rem;
+  color: #059669;
+  background: #d1fae5;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-left: auto;
+}
+
+.no-results {
+  color: #6b7280;
+  font-style: italic;
+  text-align: center;
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 1px dashed #d1d5db;
+}
+
+.results-summary {
+  margin-top: 24px;
+  padding: 16px;
+  background: #f0f9ff;
+  border-radius: 8px;
+  border: 1px solid #bae6fd;
+}
+
+.results-summary p {
+  margin: 0;
+  color: #0369a1;
+  font-size: 0.9rem;
+  text-align: center;
 } 

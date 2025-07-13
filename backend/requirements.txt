@@ -2,6 +2,8 @@ fastapi
 uvicorn
 pdfplumber
 langchain
+python-multipart
+langchain-community
 # ollama (local LLM runner, install separately if needed)
 # openai (for OpenAI API support)
 # google-generativeai (for Gemini API support)
